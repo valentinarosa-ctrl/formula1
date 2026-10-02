@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial;
+}
+
+#container {
+    width: 90%;
+    margin: 30px auto;
+    background-color: white;
+    border: 2px solid #222222;
+}
+
+
+
+nav {
+    background-color: #222222;
+    border-bottom: 5px solid #d00000;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 35px;
+}
+
+nav ul li a:hover {
+    background-color: #d00000;
+}
+
+
+
+.content {
+    width: 85%;
+    margin: 35px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+.inicio .content {
+    text-align: center;
+}
+
+.inicio h1 {
+    color: #d00000;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.inicio .subtitulo {
+    font-size: 21px;
+    color: #555555;
+    margin-bottom: 25px;
+}
+
+.inicio img {
+    width: 70%;
+    margin: 20px auto;
+    border: 3px solid #222222;
+}
+
+.inicio h2 {
+    color: #d00000;
+    margin: 25px 0 15px 0;
+}
+
+.inicio .content > p {
+    width: 80%;
+    margin: 0 auto 25px auto;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.informacoes {
+    margin: 25px auto;
+}
+
+
+
+.caixa {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    min-height: 130px;
+    /*min height define uma altura minima para o elemento*/
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-top: 4px solid #d00000;
+    background-color: #f7f7f7;
+}
+
+.caixa h3 {
+    color: #d00000;
+    margin-bottom: 10px;
+}
+
+.caixa p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+.sobre .content {
+    text-align: center;
+}
+
+.sobre .titulo {
+    background-color: #222222;
+    padding: 30px;
+    border-bottom: 5px solid #d00000;
+    margin-bottom: 25px;
+}
+
+.sobre .titulo h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.sobre .titulo p {
+    color: white;
+    font-size: 17px;
+}
+
+.sobre .bloco {
+    background-color: #f7f7f7;
+    border: 1px solid #cccccc;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.sobre .bloco h2 {
+    color: #d00000;
+    margin-bottom: 15px;
+}
+
+.sobre .bloco p {
+    line-height: 1.6;
+    /*line-height controla o espaço entre as linhas do texto*/
+    margin-bottom: 10px;
+}
+
+.sobre table {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.sobre th {
+    background-color: #d00000;
+    color: white;
+    padding: 13px;
+}
+
+.sobre td {
+    border: 1px solid #222222;
+    padding: 13px;
+}
+
+.sobre tr:hover {
+    background-color: #eeeeee;
+}
+
+
+
+.lista {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.lista li {
+    list-style: none;
+    padding: 12px;
+    margin: 7px;
+    background-color: #eeeeee;
+}
+
+
+
+.contato {
+    text-align: center;
+}
+
+.contato h1 {
+    color: d00000;
+    font-size: 36px;
+}
+
+.contato h2 {
+    color: 222222;
+}
+
+.contato p {
+    font-size: 17px;
+}
+
+.contato ul {
+    width: 350px;
+    margin: 20px auto;
+}
+
+.contato li {
+    padding: 12px;
+    margin: 7px;
+    background-color: eeeeee;
+}
